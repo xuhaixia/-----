@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A49E5A7118D0B59000FC7795 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49E5A7018D0B59000FC7795 /* MineViewController.m */; };
 		A4BC325B18CEA91D001973A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BC325A18CEA91D001973A2 /* Foundation.framework */; };
 		A4BC325D18CEA91D001973A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BC325C18CEA91D001973A2 /* CoreGraphics.framework */; };
 		A4BC325F18CEA91D001973A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BC325E18CEA91D001973A2 /* UIKit.framework */; };
@@ -19,6 +20,26 @@
 		A4BC327618CEA91D001973A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BC325E18CEA91D001973A2 /* UIKit.framework */; };
 		A4BC327E18CEA91D001973A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4BC327C18CEA91D001973A2 /* InfoPlist.strings */; };
 		A4BC328018CEA91D001973A2 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC327F18CEA91D001973A2 /* _____Tests.m */; };
+		A4BC328B18CEA94B001973A2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC328A18CEA94B001973A2 /* RegisterViewController.m */; };
+		A4BC329018CEAAD2001973A2 /* account_login_prompt_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BC328F18CEAAD2001973A2 /* account_login_prompt_ok.png */; };
+		A4BC329218CEAFE6001973A2 /* tudou.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BC329118CEAFE6001973A2 /* tudou.png */; };
+		A4BC329418CEB111001973A2 /* gallery_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BC329318CEB111001973A2 /* gallery_back@2x.png */; };
+		A4BC32AA18CEE50A001973A2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC329818CEE50A001973A2 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32AB18CEE50A001973A2 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC329A18CEE50A001973A2 /* AFHTTPRequestOperationManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32AC18CEE50A001973A2 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC329C18CEE50A001973A2 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32AD18CEE50A001973A2 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC329F18CEE50A001973A2 /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32AE18CEE50A001973A2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC32A118CEE50A001973A2 /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32AF18CEE50A001973A2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC32A318CEE50A001973A2 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32B018CEE50A001973A2 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC32A518CEE50A001973A2 /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32B118CEE50A001973A2 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC32A718CEE50A001973A2 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32B218CEE50A001973A2 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC32A918CEE50A001973A2 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A4BC32B518CEE5DA001973A2 /* AsynconnectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC32B418CEE5DA001973A2 /* AsynconnectModel.m */; };
+		A4BC32B818CF30B7001973A2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC32B718CF30B7001973A2 /* LoginViewController.m */; };
+		A4BC32BA18CF3699001973A2 /* account_register@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BC32B918CF3699001973A2 /* account_register@2x.png */; };
+		A4BC32BE18CF3C8D001973A2 /* login_seperate_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BC32BD18CF3C8D001973A2 /* login_seperate_bar@2x.png */; };
+		A4BC32C018CF4329001973A2 /* tencent_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BC32BF18CF4329001973A2 /* tencent_login@2x.png */; };
+		A4BC32C218CF432C001973A2 /* sina_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BC32C118CF432C001973A2 /* sina_login@2x.png */; };
+		A4BC32C418CF4330001973A2 /* qq_login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4BC32C318CF4330001973A2 /* qq_login@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A49E5A6F18D0B59000FC7795 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		A49E5A7018D0B59000FC7795 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		A4BC325718CEA91D001973A2 /* 我的分界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "我的分界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BC325A18CEA91D001973A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A4BC325C18CEA91D001973A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +71,39 @@
 		A4BC327B18CEA91D001973A2 /* 我的分界面Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "我的分界面Tests-Info.plist"; sourceTree = "<group>"; };
 		A4BC327D18CEA91D001973A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4BC327F18CEA91D001973A2 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		A4BC328918CEA94B001973A2 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		A4BC328A18CEA94B001973A2 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		A4BC328F18CEAAD2001973A2 /* account_login_prompt_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_login_prompt_ok.png; sourceTree = "<group>"; };
+		A4BC329118CEAFE6001973A2 /* tudou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tudou.png; sourceTree = "<group>"; };
+		A4BC329318CEB111001973A2 /* gallery_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gallery_back@2x.png"; sourceTree = "<group>"; };
+		A4BC329718CEE50A001973A2 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A4BC329818CEE50A001973A2 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A4BC329918CEE50A001973A2 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		A4BC329A18CEE50A001973A2 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		A4BC329B18CEE50A001973A2 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A4BC329C18CEE50A001973A2 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A4BC329D18CEE50A001973A2 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A4BC329E18CEE50A001973A2 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A4BC329F18CEE50A001973A2 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A4BC32A018CEE50A001973A2 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A4BC32A118CEE50A001973A2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A4BC32A218CEE50A001973A2 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A4BC32A318CEE50A001973A2 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A4BC32A418CEE50A001973A2 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A4BC32A518CEE50A001973A2 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A4BC32A618CEE50A001973A2 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A4BC32A718CEE50A001973A2 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A4BC32A818CEE50A001973A2 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A4BC32A918CEE50A001973A2 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A4BC32B318CEE5DA001973A2 /* AsynconnectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsynconnectModel.h; path = AFNetworking/AsynconnectModel.h; sourceTree = "<group>"; };
+		A4BC32B418CEE5DA001973A2 /* AsynconnectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsynconnectModel.m; path = AFNetworking/AsynconnectModel.m; sourceTree = "<group>"; };
+		A4BC32B618CF30B7001973A2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A4BC32B718CF30B7001973A2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A4BC32B918CF3699001973A2 /* account_register@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_register@2x.png"; sourceTree = "<group>"; };
+		A4BC32BD18CF3C8D001973A2 /* login_seperate_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_seperate_bar@2x.png"; sourceTree = "<group>"; };
+		A4BC32BF18CF4329001973A2 /* tencent_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tencent_login@2x.png"; sourceTree = "<group>"; };
+		A4BC32C118CF432C001973A2 /* sina_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sina_login@2x.png"; sourceTree = "<group>"; };
+		A4BC32C318CF4330001973A2 /* qq_login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qq_login@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +133,7 @@
 		A4BC324E18CEA91D001973A2 = {
 			isa = PBXGroup;
 			children = (
+				A4BC329518CEE500001973A2 /* AF */,
 				A4BC326018CEA91D001973A2 /* 我的分界面 */,
 				A4BC327918CEA91D001973A2 /* 我的分界面Tests */,
 				A4BC325918CEA91D001973A2 /* Frameworks */,
@@ -107,10 +164,17 @@
 		A4BC326018CEA91D001973A2 /* 我的分界面 */ = {
 			isa = PBXGroup;
 			children = (
+				A4BC328C18CEA951001973A2 /* 我的登录 */,
 				A4BC326918CEA91D001973A2 /* AppDelegate.h */,
 				A4BC326A18CEA91D001973A2 /* AppDelegate.m */,
-				A4BC326C18CEA91D001973A2 /* Images.xcassets */,
+				A4BC328918CEA94B001973A2 /* RegisterViewController.h */,
+				A4BC328A18CEA94B001973A2 /* RegisterViewController.m */,
+				A4BC32B618CF30B7001973A2 /* LoginViewController.h */,
+				A4BC32B718CF30B7001973A2 /* LoginViewController.m */,
+				A49E5A6F18D0B59000FC7795 /* MineViewController.h */,
+				A49E5A7018D0B59000FC7795 /* MineViewController.m */,
 				A4BC326118CEA91D001973A2 /* Supporting Files */,
+				A4BC326C18CEA91D001973A2 /* Images.xcassets */,
 			);
 			path = "我的分界面";
 			sourceTree = "<group>";
@@ -120,6 +184,14 @@
 			children = (
 				A4BC326218CEA91D001973A2 /* 我的分界面-Info.plist */,
 				A4BC326318CEA91D001973A2 /* InfoPlist.strings */,
+				A4BC329118CEAFE6001973A2 /* tudou.png */,
+				A4BC32BF18CF4329001973A2 /* tencent_login@2x.png */,
+				A4BC32B918CF3699001973A2 /* account_register@2x.png */,
+				A4BC32C318CF4330001973A2 /* qq_login@2x.png */,
+				A4BC32C118CF432C001973A2 /* sina_login@2x.png */,
+				A4BC329318CEB111001973A2 /* gallery_back@2x.png */,
+				A4BC32BD18CF3C8D001973A2 /* login_seperate_bar@2x.png */,
+				A4BC328F18CEAAD2001973A2 /* account_login_prompt_ok.png */,
 				A4BC326618CEA91D001973A2 /* main.m */,
 				A4BC326818CEA91D001973A2 /* 我的分界面-Prefix.pch */,
 			);
@@ -142,6 +214,49 @@
 				A4BC327C18CEA91D001973A2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4BC328C18CEA951001973A2 /* 我的登录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "我的登录";
+			sourceTree = "<group>";
+		};
+		A4BC329518CEE500001973A2 /* AF */ = {
+			isa = PBXGroup;
+			children = (
+				A4BC32B318CEE5DA001973A2 /* AsynconnectModel.h */,
+				A4BC32B418CEE5DA001973A2 /* AsynconnectModel.m */,
+				A4BC329618CEE50A001973A2 /* AFNetworking */,
+			);
+			name = AF;
+			sourceTree = "<group>";
+		};
+		A4BC329618CEE50A001973A2 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A4BC329718CEE50A001973A2 /* AFHTTPRequestOperation.h */,
+				A4BC329818CEE50A001973A2 /* AFHTTPRequestOperation.m */,
+				A4BC329918CEE50A001973A2 /* AFHTTPRequestOperationManager.h */,
+				A4BC329A18CEE50A001973A2 /* AFHTTPRequestOperationManager.m */,
+				A4BC329B18CEE50A001973A2 /* AFHTTPSessionManager.h */,
+				A4BC329C18CEE50A001973A2 /* AFHTTPSessionManager.m */,
+				A4BC329D18CEE50A001973A2 /* AFNetworking.h */,
+				A4BC329E18CEE50A001973A2 /* AFNetworkReachabilityManager.h */,
+				A4BC329F18CEE50A001973A2 /* AFNetworkReachabilityManager.m */,
+				A4BC32A018CEE50A001973A2 /* AFSecurityPolicy.h */,
+				A4BC32A118CEE50A001973A2 /* AFSecurityPolicy.m */,
+				A4BC32A218CEE50A001973A2 /* AFURLConnectionOperation.h */,
+				A4BC32A318CEE50A001973A2 /* AFURLConnectionOperation.m */,
+				A4BC32A418CEE50A001973A2 /* AFURLRequestSerialization.h */,
+				A4BC32A518CEE50A001973A2 /* AFURLRequestSerialization.m */,
+				A4BC32A618CEE50A001973A2 /* AFURLResponseSerialization.h */,
+				A4BC32A718CEE50A001973A2 /* AFURLResponseSerialization.m */,
+				A4BC32A818CEE50A001973A2 /* AFURLSessionManager.h */,
+				A4BC32A918CEE50A001973A2 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +335,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4BC326518CEA91D001973A2 /* InfoPlist.strings in Resources */,
+				A4BC32BA18CF3699001973A2 /* account_register@2x.png in Resources */,
+				A4BC32C018CF4329001973A2 /* tencent_login@2x.png in Resources */,
+				A4BC329218CEAFE6001973A2 /* tudou.png in Resources */,
+				A4BC329418CEB111001973A2 /* gallery_back@2x.png in Resources */,
+				A4BC32BE18CF3C8D001973A2 /* login_seperate_bar@2x.png in Resources */,
+				A4BC32C418CF4330001973A2 /* qq_login@2x.png in Resources */,
+				A4BC32C218CF432C001973A2 /* sina_login@2x.png in Resources */,
+				A4BC329018CEAAD2001973A2 /* account_login_prompt_ok.png in Resources */,
 				A4BC326D18CEA91D001973A2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +362,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BC32AA18CEE50A001973A2 /* AFHTTPRequestOperation.m in Sources */,
 				A4BC326B18CEA91D001973A2 /* AppDelegate.m in Sources */,
+				A4BC32AB18CEE50A001973A2 /* AFHTTPRequestOperationManager.m in Sources */,
+				A4BC32AD18CEE50A001973A2 /* AFNetworkReachabilityManager.m in Sources */,
+				A4BC32B818CF30B7001973A2 /* LoginViewController.m in Sources */,
+				A4BC32B118CEE50A001973A2 /* AFURLResponseSerialization.m in Sources */,
+				A4BC32AF18CEE50A001973A2 /* AFURLConnectionOperation.m in Sources */,
+				A4BC32AE18CEE50A001973A2 /* AFSecurityPolicy.m in Sources */,
+				A4BC32AC18CEE50A001973A2 /* AFHTTPSessionManager.m in Sources */,
+				A4BC32B018CEE50A001973A2 /* AFURLRequestSerialization.m in Sources */,
+				A4BC32B218CEE50A001973A2 /* AFURLSessionManager.m in Sources */,
+				A4BC32B518CEE5DA001973A2 /* AsynconnectModel.m in Sources */,
+				A49E5A7118D0B59000FC7795 /* MineViewController.m in Sources */,
+				A4BC328B18CEA94B001973A2 /* RegisterViewController.m in Sources */,
 				A4BC326718CEA91D001973A2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "我的分界面/我的分界面-Prefix.pch";
 				INFOPLIST_FILE = "我的分界面/我的分界面-Info.plist";
@@ -374,6 +511,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "我的分界面/我的分界面-Prefix.pch";
 				INFOPLIST_FILE = "我的分界面/我的分界面-Info.plist";
@@ -443,6 +581,7 @@
 				A4BC328518CEA91D001973A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4BC328618CEA91D001973A2 /* Build configuration list for PBXNativeTarget "我的分界面Tests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +590,7 @@
 				A4BC328818CEA91D001973A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
