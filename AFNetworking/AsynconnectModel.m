@@ -85,7 +85,7 @@ NSString *const RS_TripConnection = @"http://api.breadtrip.com/accounts/login/";
     [request setHTTPBody:data];
     [request setHTTPMethod:@"POST"];
     [NSURLConnection connectionWithRequest:request delegate:self];
-//    z账号密码：蓝鸥大连6 1234567890
+//    z账号密码：蓝鸥大连6 1234567890＊＊＊＊＊＊＊＊＊＊＊
 }
 
 -(void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
